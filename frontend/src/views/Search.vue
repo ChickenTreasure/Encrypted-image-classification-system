@@ -1,6 +1,8 @@
 <template>
   <div class="container">
     <div class="search-content">
+      <img style="width: 50%; height: 10%; margin-left: 25%;" src="../assets/images/流程图.png" alt="" />
+      <img style="width: 50%; height: 10%; margin-left: 25%;" src="../assets/modelImage/双流卷积神经网络.png" alt="" />
       <div class="search-upload">
         <h3 class="search-content-title" style="display:inline-block;">点我上传图片哦～</h3>
         <!-- 上传图片的按钮 -->
