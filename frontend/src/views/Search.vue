@@ -20,8 +20,8 @@
       <!-- 选择图片展示的数量 -->
       <el-row class="input-row">
         <div style="display: flex;">
-          <div style="font-size: medium;font-weight: revert;width: 144px;position:relative;top:5px;">图像分类结果数:</div>
-          <el-input-number style="margin-left: 1%;" size="small" v-model="num" :min="1" :max="9"></el-input-number>
+          <div style="font-size: medium;font-weight: revert;width: 144px;position:relative;top:5px;">图像分类结果:</div>
+          <el-input-number style="margin-left: 1%;" size="small" v-model="num" :min="1" :max="1"></el-input-number>
           <!-- 搜索按钮 -->
           <el-button :disabled="fileList.length === 0 || isSearching" @click="searchRes"
             style="margin-top: 2%; z-index: 1000;margin-left: 2%;position:relative;top:-11px;" type="primary"><i
